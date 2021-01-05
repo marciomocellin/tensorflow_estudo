@@ -1,0 +1,15 @@
+python -m venv --system-site-packages .\venv
+Ative o ambiente virtual:
+
+
+.\venv\Scripts\activate
+Instale pacotes em um ambiente virtual sem afetar a configuração do sistema host. Comece fazendo upgrade de pip:
+
+
+pip install --upgrade pip
+
+pip list  # show packages installed within the virtual environment
+Para sair do ambiente virtual posteriormente:
+
+
+deactivate  # don't exit until you're done using TensorFlow
